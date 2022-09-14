@@ -1,0 +1,104 @@
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+    }
+    nav {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .menu{
+        padding-top: 20px;
+        width: 100%;
+    }
+    nav ul { 
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu li {
+        display: inline-block;
+    }
+    .head_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .head_text img {
+        width: 400px;
+    }
+    .head_text div{
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+    }
+    .head_text div h1{
+        justify-self: center;
+        align-self: center;
+    }
+    .head_text div p {
+        justify-self: center;
+        align-self: center;
+    }
+    .head_text input {
+        justify-self: center;
+        align-self: center;
+    }
+    .stats h1 {
+        padding: 10px 20px;
+    }
+    .cards {
+        padding: 10px;
+    }
+    .stats img {
+        width: 400px;
+    }
+    .features h1 {
+        padding: 10px 20px;
+    }
+    .feat-card {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .feat-card:nth-child(2) {
+        flex-direction: column;
+    }
+    .team-head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .team-head h1 {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 20px;
+    }
+    .team-head p {
+        width: 100%;
+        padding: 0;
+    }
+    .team-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .foot-top {
+        padding: 20px 10px;
+    }
+    hr {
+        margin: 0;
+    }
+    .foot-menus {
+        flex-wrap: wrap;
+    }
+    .foot-menu {
+        width: 50%;
+        padding-bottom: 20px;
+    }
+}
+
